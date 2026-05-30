@@ -24,7 +24,7 @@ export const algorithms: AlgorithmInfo[] = [
     controls: "K, points, dataset shape, step / auto-run",
     visualization: "Colored clusters, moving centroids, inertia",
     status: "MVP",
-    available: false,
+    available: true,
   },
   {
     slug: "decision-tree",
