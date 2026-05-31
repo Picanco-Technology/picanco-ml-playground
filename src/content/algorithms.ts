@@ -36,7 +36,7 @@ export const algorithms: AlgorithmInfo[] = [
     controls: "Max depth, min samples, dataset type",
     visualization: "Decision boundary, tree rules, accuracy",
     status: "MVP",
-    available: false,
+    available: true,
   },
   {
     slug: "neural-network",
