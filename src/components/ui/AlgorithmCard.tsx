@@ -14,7 +14,7 @@ export function AlgorithmCard({ algorithm }: { algorithm: AlgorithmInfo }) {
     algorithm;
 
   return (
-    <article className="flex flex-col rounded-2xl border border-white/10 bg-slate-900/60 p-6 shadow-lg shadow-black/20 transition-colors hover:border-indigo-400/40">
+    <article className="flex flex-col rounded-2xl border border-white/10 bg-slate-900/60 p-6 shadow-lg shadow-black/20 transition-all duration-200 hover:-translate-y-0.5 hover:border-indigo-400/40 hover:shadow-xl hover:shadow-indigo-500/10">
       <div className="flex items-start justify-between gap-3">
         <div>
           <h3 className="text-lg font-semibold text-white">{name}</h3>

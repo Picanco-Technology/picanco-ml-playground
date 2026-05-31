@@ -30,9 +30,9 @@ export function PlaygroundShell({
         {status}
       </header>
 
-      <div className="mt-8 grid gap-6 lg:grid-cols-[280px_1fr_320px]">
+      <div className="mt-8 grid items-start gap-6 lg:grid-cols-[260px_minmax(0,1fr)_320px]">
         <div className="space-y-6">{controls}</div>
-        <div className="min-h-[320px]">{visualization}</div>
+        <div className="min-w-0">{visualization}</div>
         <div className="space-y-6">{info}</div>
       </div>
 
