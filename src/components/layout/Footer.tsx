@@ -7,7 +7,7 @@ export function Footer() {
         <p>Interactive Machine Learning Playground — a portfolio project.</p>
         <div className="flex items-center gap-5">
           <a
-            href="https://github.com"
+            href="https://github.com/qhiyn"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 transition-colors hover:text-white"
